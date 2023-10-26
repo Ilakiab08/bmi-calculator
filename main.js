@@ -21,5 +21,9 @@ function calculateBmi(){
 return result;
 
                 }
+
+                function clearAll(){
+                    
+                }
                    
             }                  

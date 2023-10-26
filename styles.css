@@ -1,6 +1,7 @@
 #container{
-    width: 30%;
+    width: 50%;
     background-color: aquamarine;
+    height:70%;
 
 }
 
@@ -69,5 +70,15 @@
     border:none;
     cursor:pointer;
     border-radius:30px;
+
+}
+
+#result{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    height:50vh;
+    width:100%;
 
 }
