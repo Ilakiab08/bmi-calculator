@@ -11,12 +11,12 @@ function calculateBmi(){
         const bmi = weight / (heightInMeters * heightInMeters); */
         let bmi = (weight / ((height * height) / 10000)).toFixed(2);
         if (bmi < 18.6) 
-        result =`Under Weight : ${bmi}`;
+        result.textContent =`Under Weight : ${bmi}`;
 
     else if (bmi >= 18.6 && bmi < 24.9) 
-      result=  `Normal : ${bmi}`;
+      result.textContent=  `Normal : ${bmi}`;
 
-    else result=
+    else result.textContent=
         `Over Weight : ${bmi}`;
 return result;
 
