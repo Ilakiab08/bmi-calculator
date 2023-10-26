@@ -1,0 +1,73 @@
+#container{
+    width: 30%;
+    background-color: aquamarine;
+
+}
+
+#age{
+    font-size: 24px;
+    color:black;
+    margin:20px;
+    padding:10px;
+    
+}
+
+#line2{
+   margin:20px;
+   padding:10px;
+   font-size: 24px;
+    height: 5px;
+    width: 90%;
+ 
+
+}
+#enter{
+    display: flex;
+    justify-content: center;
+    align-items:left;
+    text-align:center;
+    font-size:20px;
+    border: none;
+
+}
+
+
+#height{
+    font-size: 24px;
+    color: black;
+    margin:20px;
+    padding:10px;
+
+}
+
+
+#weight{
+    font-size: 24px;
+    color: black;
+    margin:20px;
+    padding:10px;
+
+}
+
+
+#calculate{
+    background-color:#3c8dbc; 
+    color:white;
+    font-size:20px;
+    padding:10px;
+    border:none;
+    cursor:pointer;
+    border-radius:30px;
+
+}
+
+#clear{
+    background-color:#f76e6e;
+    color:white;
+    font-size:20px;
+    padding:10px;
+    border:none;
+    cursor:pointer;
+    border-radius:30px;
+
+}
