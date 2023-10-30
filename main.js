@@ -20,10 +20,20 @@ function calculateBmi(){
         `Over Weight : ${bmi}`;
 return result;
 
-                }
+                } }
 
-                function clearAll(){
-                    
-                }
+                function clearAll() {
+                    document.getElementById("weight").value = "";
+            document.getElementById("height").value = "";
+            
+            // Clear the result
+            document.querySelector("#result").value = "";
+
                    
-            }                  
+                }
+                
+                
+                    
+                
+                   
+            
